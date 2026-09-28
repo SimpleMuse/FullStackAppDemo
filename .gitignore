@@ -1,0 +1,40 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Aa]rtifacts/
+[Pp]ublish/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET tooling and test output
+project.lock.json
+project.fragment.lock.json
+artifacts/
+TestResults/
+*.trx
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# ASP.NET / Blazor generated files
+scopedcss/
+wwwroot/_framework/
+
+# Logs and local environment files
+*.log
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
